@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact</title>
+        <link rel="stylesheet" href="./style.css" />
+     </head>
+     <body>
+        <section>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="focused" href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="/links.html">Adopt</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="main">
+            <h1>Contact Us</h1>
+        </section>
+        <form action="non" method="post">
+            <fieldset class="contact-form">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="first_name">
+
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="last_name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email_address">
+
+                <label for="comments">Message</label>
+                <textarea id="comments" name="comments" cols="30" rows="10">
+                </textarea>
+
+                <label for="news">Sign Up for Newsletter</label>
+                <input type="checkbox" id="news" name="terms">
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+
+     </body>
+
+</html>
